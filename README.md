@@ -1,4 +1,4 @@
-# Template
+# Receipt
 
 - Create a program called `Receipt.py`
 - Create a variable for the tax that has the value 0.0825
