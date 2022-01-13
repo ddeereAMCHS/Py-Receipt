@@ -5,7 +5,7 @@
       "setup": "",
       "run": "python Receipt.py",
       "input": "Billy Williams\n2.50\n3.25",
-      "output": "Order for:\\s{20}Billy\nCashier:\\s*[a-zA-Z]*\n\nCheese pizza\\s{18,19}\\d+\\.\\d\\d\n  \\d @ \\d+\\.\\d\\d\nPepperoni pizza\\s{15,16}\\d+\\.\\d\\d\n  \\d @ \\d+\\.\\d\\d\n\nSubtotal\\s{22,23}\\d+\\.\\d\\d\nTax\\s{28}\\d+\\.\\d\\d\nTotal\\s{25,26}\\d+\\.\\d\\d$",
+      "output": "Order for:\\s{20}Billy\nCashier:\\s*[a-zA-Z\s]*\n\nCheese pizza\\s{18,19}\\d+\\.\\d\\d\n  \\d @ \\d+\\.\\d\\d\nPepperoni pizza\\s{15,16}\\d+\\.\\d\\d\n  \\d @ \\d+\\.\\d\\d\n\nSubtotal\\s{22,23}\\d+\\.\\d\\d\nTax\\s{28}\\d+\\.\\d\\d\nTotal\\s{25,26}\\d+\\.\\d\\d$",
       "comparison": "regex",
       "timeout": 10,
       "points": null
